@@ -1,6 +1,6 @@
 Smart Traffic Flow Prediction System
 
-## 📌 Project Overview
+## Project Overview
 This project is an **industrial-level Machine Learning system** designed to predict traffic conditions on a highway based on historical and environmental data.
 
 The system analyzes patterns such as:
@@ -14,15 +14,10 @@ The system analyzes patterns such as:
 - ✔ Traffic trend (Increasing / Decreasing)  
 - ✔ Alert level (Safe / Moderate / High Traffic)
 
-- ## 📊 Example Output
-- Predicted Traffic: 847.61
-- Traffic Level: LOW
-- Trend: INCREASING 📈
-- Alert: SAFE
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Predict next hour traffic volume  
 - Classify traffic into:
   - Low  
@@ -33,7 +28,7 @@ The system analyzes patterns such as:
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 The dataset contains **48,000+ records** of highway traffic data.
 
 ### Features used:
@@ -58,7 +53,7 @@ The dataset contains **48,000+ records** of highway traffic data.
 
 ---
 
-## ⚙️ Data Preprocessing
+## Data Preprocessing
 The following steps were performed:
 - Handling missing values  
 - Encoding categorical features  
@@ -71,7 +66,7 @@ The following steps were performed:
 
 ---
 
-## 📈 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 ### Key insights:
 - Traffic peaks during rush hours  
@@ -80,7 +75,7 @@ The following steps were performed:
 
 ---
 
-## 🤖 Model Building
+## Model Building
 
 ### Models Tested:
 - Linear Regression  
@@ -89,7 +84,7 @@ The following steps were performed:
 - XGBoost  
 
 ### Final Model:
-👉 **Random Forest Regressor**
+**Random Forest Regressor**
 
 ### Performance:
 
@@ -102,10 +97,10 @@ The following steps were performed:
 
 ---
 
-## 🧠 Feature Importance
+## Feature Importance
 
 Top contributing features:
-- 🔥 traffic_lag1 (Most important)  
+- traffic_lag1 (Most important)  
 - hour_cos  
 - hour_sin  
 - day_sin  
@@ -114,7 +109,7 @@ This shows that **previous traffic and time patterns** are the strongest predict
 
 ---
 
-## 🖥️ Streamlit Application
+## Streamlit Application
 
 An interactive web app was built using **Streamlit**.
 
@@ -124,3 +119,9 @@ An interactive web app was built using **Streamlit**.
 - Traffic level classification  
 - Trend detection
 - Alert system
+
+- - ## Example Output
+- Predicted Traffic: 847.61
+- Traffic Level: LOW
+- Trend: INCREASING 📈
+- Alert: SAFE
